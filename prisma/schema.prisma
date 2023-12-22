@@ -1,0 +1,121 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Account {
+  id                String  @id @default(cuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String? @db.Text
+  access_token      String? @db.Text
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String? @db.Text
+  session_state     String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model User {
+  id            String     @id @default(cuid())
+  name          String?
+  email         String?    @unique
+  emailVerified DateTime?
+  image         String?
+  accounts      Account[]
+  sessions      Session[]
+  Client        Client[]
+  Training      Training[]
+  Exercise      Exercise[]
+}
+
+model VerificationToken {
+  identifier String
+  token      String   @unique
+  expires    DateTime
+
+  @@unique([identifier, token])
+}
+
+model Client {
+  id         String   @id @default(cuid())
+  name       String
+  age        Int
+  weight     Float
+  height     Float
+  phone      String
+  created_at DateTime @default(now())
+
+  user_id String
+  user    User   @relation(fields: [user_id], references: [id])
+
+  Training Training[]
+  Feedback Feedback[]
+}
+
+model Training {
+  id          String   @id @default(cuid())
+  name        String
+  description String
+  created_at  DateTime @default(now())
+
+  user_id String
+  user    User   @relation(fields: [user_id], references: [id])
+
+  client_id String
+  client    Client @relation(fields: [client_id], references: [id])
+
+  Exercise Exercise[]
+  Feedback Feedback[]
+}
+
+model Exercise {
+  id            String   @id @default(cuid())
+  name          String
+  description   String
+  muscle_groupd String
+  repetitions   Int
+  weight        Int
+  series        Int
+  pause_time    String
+  created_at    DateTime @default(now())
+
+  user_id String
+  user    User   @relation(fields: [user_id], references: [id])
+
+  training_id String
+  training    Training @relation(fields: [training_id], references: [id], onDelete: Cascade)
+}
+
+model Feedback {
+  id         String   @id @default(cuid())
+  comment    String
+  created_at DateTime @default(now())
+
+  client_id String
+  client    Client @relation(fields: [client_id], references: [id])
+
+  training_id String
+  training    Training @relation(fields: [training_id], references: [id], onDelete: Cascade)
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "pergunta": "Como posso começar a usar o Meu Personal?",
+    "resposta": "Para começar, basta se cadastrar na plataforma e criar sua conta personalizada. A partir daí, você pode explorar todas as funcionalidades, incluindo a gestão de clientes, a criação de treinos e exercícios."
+  },
+  {
+    "id": 2,
+    "pergunta": "Quais benefícios o Meu Personal oferece para personal trainers?",
+    "resposta": "O Meu Personal simplifica a gestão de treinamentos ao centralizar clientes, treinos e resultados em uma única plataforma. Com recursos intuitivos, você economiza tempo, personaliza treinos com facilidade e fortalece a conexão com seus clientes."
+  },
+  {
+    "id": 3,
+    "pergunta": "Como faço para personalizar os treinos dos meus clientes?",
+    "resposta": "Ao acessar a seção de treinos, você pode criar e personalizar treinos de acordo com as necessidades individuais de cada cliente. Adicione exercícios, defina séries e repetições, e adapte conforme o progresso."
+  },
+  {
+    "id": 4,
+    "pergunta": "O Meu Personal é adequado para clientes iniciantes?",
+    "resposta": "Sim, o Meu Personal é projetado para atender tanto a personal trainers experientes quanto a clientes iniciantes. A interface fácil de usar torna a plataforma acessível para todos, garantindo uma experiência positiva de treinamento."
+  },
+  {
+    "id": 5,
+    "pergunta": "Como posso rastrear o progresso dos meus clientes?",
+    "resposta": "Utilize as ferramentas de análise integradas para acompanhar o progresso dos clientes. Estatísticas de desempenho, histórico de treinos e feedback dos clientes estão disponíveis para proporcionar uma visão abrangente do progresso e resultados."
+  }
+]

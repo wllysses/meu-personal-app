@@ -1,0 +1,380 @@
+{
+  "exercicios_peitoral": [
+    {
+      "id": "a1f89a9b-2312-4d85-bc1e-6a8b4e4b74c1",
+      "nome": "Supino Reto com barra"
+    },
+    {
+      "id": "a2c75e0f-98a4-4df1-bc9f-3e6a7f3e2d4a",
+      "nome": "Supino Reto com Halteres"
+    },
+    {
+      "id": "d85b2312-89a9-4d85-ba1f-89a9b2312a8b",
+      "nome": "Supino Inclinado com Barra"
+    },
+    {
+      "id": "d85b2312-89a9-4d85-89a9-b2312a8b4d85",
+      "nome": "Supino Inclinado com Halteres"
+    },
+    {
+      "id": "e2d4a5b8-9f3e-4df1-bc7f-a2c75e0f3e6a",
+      "nome": "Flexão de Braços"
+    },
+    {
+      "id": "c1e6a8b4-4d85-4231-89a9-ba1f89a9b231",
+      "nome": "Crucifixo com Halteres"
+    },
+    {
+      "id": "b2312a8b-4d85-9a9b-1f89a9ba1f8",
+      "nome": "Pullover com Halteres"
+    },
+    {
+      "id": "d85b2312-9ba1-89a9-4d85-ba1f89a9b231",
+      "nome": "Mergulho entre Bancos"
+    },
+    {
+      "id": "a1f89a9b-4d85-2312-89a9-ba1f89a9b231",
+      "nome": "Peck Deck (Voador)"
+    },
+    {
+      "id": "a1f89a9b-2312-4d85-89a9-ba1f89a9b231",
+      "nome": "Cross Over"
+    }
+  ],
+  "exercicios_triceps": [
+    {
+      "id": "5d7b9e5a-9b3a-4c98-8c76-fa3a1c4b8d2e",
+      "nome": "Tríceps Pulley"
+    },
+    {
+      "id": "3b2a8f9c-6d1e-4a5b-9c8f-3e2a1e4b8c9f",
+      "nome": "Tríceps Testa com Halteres"
+    },
+    {
+      "id": "2e1d3c4b-5a9b-4c8f-9b5a-6d4c8f3a1b2e",
+      "nome": "Tríceps Coice com Halteres"
+    },
+    {
+      "id": "1a2b3c4d-5e6f-7a8b-9c1d-2e3f4a5b6c7",
+      "nome": "Tríceps Corda"
+    },
+    {
+      "id": "5e6f7a8b-9c1d-2e3f-4a5b-6c7d8e9f1a2b",
+      "nome": "Tríceps na Máquina"
+    },
+    {
+      "id": "9c1d2e3f-4a5b-6c7d-8e9f-1a2b3c4d5e6f",
+      "nome": "Tríceps Francesa"
+    },
+    {
+      "id": "6c7d8e9f-1a2b-3c4d-5e6f-7a8b9c1d2e3f",
+      "nome": "Tríceps Barra"
+    },
+    {
+      "id": "3c4d5e6f-7a8b-9c1d-2e3f-4a5b6c7d8e9f",
+      "nome": "Tríceps Testa na Polia"
+    },
+    {
+      "id": "7a8b9c1d-2e3f-4a5b-6c7d-8e9f1a2b3c4d",
+      "nome": "Tríceps Pulley Invertido"
+    },
+    {
+      "id": "4a5b6c7d-8e9f-1a2b-3c4d-5e6f7a8b9c1d",
+      "nome": "Tríceps Coice na Polia"
+    }
+  ],
+  "exercicios_biceps": [
+    {
+      "id": "fb739a6e-178c-4f6f-9d6a-8c29f50f8e93",
+      "nome": "Rosca Direta"
+    },
+    {
+      "id": "e6c8d1a7-4f6f-8c29-3a6e8e9f5b2a",
+      "nome": "Rosca Alternada"
+    },
+    {
+      "id": "9d6a8c29-f50f-6e8e-6c8d-1a7b2a3c4d5e",
+      "nome": "Rosca Scott"
+    },
+    {
+      "id": "f6f9d6a8-c29f-5b2a-4f6f-9d6a-8c29f50f8e93",
+      "nome": "Rosca Martelo"
+    },
+    {
+      "id": "8c29f50f-8e93-4f6f-9d6a-8c29f50f8e93",
+      "nome": "Rosca Concentrada"
+    },
+    {
+      "id": "4f6f9d6a-8c29-3a6e-8e9f-5b2a4f6f9d6a",
+      "nome": "Rosca 21"
+    },
+    {
+      "id": "8e9f5b2a-4f6f-8c29-3a6e-8e9f5b2a4f6f",
+      "nome": "Rosca Inversa"
+    },
+    {
+      "id": "8c29f50f-8e93-4f6f-9d6a-8c29f50f8e93",
+      "nome": "Rosca na Corda"
+    },
+    {
+      "id": "f50f8e93-4f6f-9d6a-8c29-f50f8e93",
+      "nome": "Rosca 21 Invertida"
+    },
+    {
+      "id": "8e9f5b2a-4f6f-9d6a-8c29-f50f8e93",
+      "nome": "Rosca 21 Invertida na Máquina"
+    }
+  ],
+  "exercicios_dorsal": [
+    {
+      "id": "a7b2e9f5-6c8d-4f6f-9d6a-8c29f50f8e93",
+      "nome": "Barra Fixa"
+    },
+    {
+      "id": "4f6f9d6a-8c29-8e9f-5b2a-4f6f9d6a8c29",
+      "nome": "Puxada Frontal"
+    },
+    {
+      "id": "8c29f50f-8e93-4f6f-9d6a-8c29f50f8e93",
+      "nome": "Remada Curvada"
+    },
+    {
+      "id": "f6f9d6a8-c29f-5b2a-4f6f-9d6a-8c29f50f8e93",
+      "nome": "Remada Cavalinho"
+    },
+    {
+      "id": "8c29f50f-8e93-4f6f-9d6a-8c29f50f8e93",
+      "nome": "Puxada Alta"
+    },
+    {
+      "id": "8e9f5b2a-4f6f-8c29-3a6e-8e9f5b2a4f6f",
+      "nome": "Puxada Fechada"
+    },
+    {
+      "id": "8c29f50f-8e93-4f6f-9d6a-8c29f50f8e93",
+      "nome": "Puxada Aberta"
+    },
+    {
+      "id": "4f6f9d6a-8c29-3a6e-8e9f-5b2a4f6f9d6a",
+      "nome": "Remada Baixa"
+    },
+    {
+      "id": "8e9f5b2a-4f6f-8c29-3a6e-8e9f5b2a4f6f",
+      "nome": "Pulldown"
+    },
+    {
+      "id": "4f6f9d6a-8c29-3a6e-8e9f-5b2a4f6f9d6a",
+      "nome": "Pullover"
+    }
+  ],
+  "exercicios_quadriceps": [
+    {
+      "id": "a1f89a9b-2312-4d85-89a9-ba1f89a9b231",
+      "nome": "Agachamento Livre"
+    },
+    {
+      "id": "e6c8d1a7-4f6f-8c29-3a6e-8e9f5b2a4f6f",
+      "nome": "Agachamento Smith"
+    },
+    {
+      "id": "4f6f9d6a-8c29-3a6e-8e9f-5b2a4f6f9d6a",
+      "nome": "Leg Press 45°"
+    },
+    {
+      "id": "8e9f5b2a-4f6f-8c29-3a6e-8e9f5b2a4f6f",
+      "nome": "Extensora"
+    },
+    {
+      "id": "a1f89a9b-2312-4d85-89a9-ba1f89a9b231",
+      "nome": "Afundo"
+    },
+    {
+      "id": "e6c8d1a7-4f6f-8c29-3a6e-8e9f5b2a4f6f",
+      "nome": "Cadeira Extensora"
+    },
+    {
+      "id": "4f6f9d6a-8c29-3a6e-8e9f5b2a4f6f",
+      "nome": "Agachamento Hack"
+    },
+    {
+      "id": "8e9f5b2a-4f6f-8c29-3a6e-8e9f5b2a4f6f",
+      "nome": "Leg Press Vertical"
+    },
+    {
+      "id": "a1f89a9b-2312-4d85-89a9-ba1f89a9b231",
+      "nome": "Avanço"
+    },
+    {
+      "id": "e6c8d1a7-4f6f-8c29-3a6e-8e9f5b2a4f6f",
+      "nome": "Cadeira Flexora"
+    }
+  ],
+  "exercicios_posterior_coxa": [
+    {
+      "id": "a7b2e9f5-6c8d-4f6f-9d6a-8c29f50f8e93",
+      "nome": "Flexão de Pernas (deitado)"
+    },
+    {
+      "id": "4f6f9d6a-8c29-8e9f-5b2a-4f6f9d6a8c29",
+      "nome": "Flexão de Pernas (sentado)"
+    },
+    {
+      "id": "8c29f50f-8e93-4f6f-9d6a-8c29f50f8e93",
+      "nome": "Mesa Flexora"
+    },
+    {
+      "id": "f6f9d6a8-c29f-5b2a-4f6f-9d6a-8c29f50f8e93",
+      "nome": "Stiff"
+    },
+    {
+      "id": "8c29f50f-8e93-4f6f-9d6a-8c29f50f8e93",
+      "nome": "Máquina Flexora"
+    },
+    {
+      "id": "8e9f5b2a-4f6f-8c29-3a6e-8e9f5b2a4f6f",
+      "nome": "Flexão de Pernas Unilateral (deitado)"
+    },
+    {
+      "id": "8c29f50f-8e93-4f6f-9d6a-8c29f50f8e93",
+      "nome": "Flexão de Pernas Unilateral (sentado)"
+    },
+    {
+      "id": "4f6f9d6a-8c29-3a6e-8e9f5b2a4f6f",
+      "nome": "Panturrilha Sentado"
+    },
+    {
+      "id": "8e9f5b2a-4f6f-8c29-3a6e-8e9f5b2a4f6f",
+      "nome": "Panturrilha em Pé"
+    },
+    {
+      "id": "4f6f9d6a-8c29-3a6e-8e9f5b2a4f6f",
+      "nome": "Stiff com Barra"
+    }
+  ],
+  "exercicios_ombros": [
+    {
+      "id": "d0a2d67f-64e0-4c8e-9a1a-3c54b3f1c2a0",
+      "nome": "Elevação lateral com halteres"
+    },
+    {
+      "id": "a88e9c8a-3f2c-4d36-b8a8-1d84d54d2e05",
+      "nome": "Desenvolvimento com barra"
+    },
+    {
+      "id": "f9b5d308-0a5d-4d47-9673-80f4c14f1538",
+      "nome": "Elevação frontal com barra"
+    },
+    {
+      "id": "c6b2f2d9-7b0e-4b3d-895d-5b9e6b9c9918",
+      "nome": "Elevação lateral com polia baixa"
+    },
+    {
+      "id": "8b4a9e5e-4582-46a1-977a-0f8d6e4e3b6a",
+      "nome": "Elevação lateral na máquina"
+    },
+    {
+      "id": "f9b0b9d5-9f1e-4b98-9f07-7d6e4b1a0c9f",
+      "nome": "Elevação frontal com halteres"
+    },
+    {
+      "id": "3c4e5a6d-8f7e-4a9b-b8c6-5d4a3b2e1c0d",
+      "nome": "Desenvolvimento com halteres"
+    },
+    {
+      "id": "9d8a7f6e-5d4c-4b3a-8c9b-0d1e2a3f4b5c",
+      "nome": "Elevação lateral no cabo"
+    },
+    {
+      "id": "7e6f5d4c-3b2a-4e5d-8f9a-0c1d2b3a4f5e",
+      "nome": "Elevação frontal na máquina"
+    },
+    {
+      "id": "1a2b3c4d-5e6f-7a8b-9c0d-d9e8f7a6b5c4",
+      "nome": "Elevação lateral com elástico"
+    }
+  ],
+  "exercicios_panturrilhas": [
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440000",
+      "nome": "Elevação de panturrilhas em pé"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440001",
+      "nome": "Elevação de panturrilhas sentado"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440002",
+      "nome": "Elevação de panturrilhas no leg press"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440003",
+      "nome": "Salto com elevação de panturrilhas"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440004",
+      "nome": "Elevação de panturrilhas unilateral"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440005",
+      "nome": "Elevação de panturrilhas com halteres"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440006",
+      "nome": "Elevação de panturrilhas na máquina"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440007",
+      "nome": "Elevação de panturrilhas na prensa"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440008",
+      "nome": "Elevação de panturrilhas com barra"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440009",
+      "nome": "Elevação de panturrilhas no step"
+    }
+  ],
+  "exercicios_abdominais": [
+    {
+      "id": "550e8400-e29b-41d4-a716-446655441000",
+      "nome": "Crunch abdominal"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655441001",
+      "nome": "Prancha frontal"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655441002",
+      "nome": "Elevação de pernas suspenso"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655441003",
+      "nome": "Prancha lateral"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655441004",
+      "nome": "Abdominal na máquina"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655441005",
+      "nome": "Bicicleta abdominal"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655441006",
+      "nome": "Tesoura abdominal"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655441007",
+      "nome": "Abdominal com bola suíça"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655441008",
+      "nome": "Abdominal no banco inclinado"
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655441009",
+      "nome": "Prancha com elevação de braços alternados"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "titulo": "Gestão Simplificada",
+    "descricao": "Centralize todos os aspectos do seu negócio de treinamento em um único local intuitivo. Desde o acompanhamento de clientes até a criação de treinos personalizados, o Meu Personal simplifica sua gestão, economizando tempo e esforço."
+  },
+  {
+    "id": 2,
+    "titulo": "Personalização Eficiente",
+    "descricao": "Ofereça treinos verdadeiramente personalizados para cada cliente. Com uma interface fácil de usar, o Meu Personal permite ajustes rápidos e eficientes, adaptando-se às necessidades específicas de cada indivíduo."
+  },
+  {
+    "id": 3,
+    "titulo": "Conexão Direta",
+    "descricao": "Fortaleça sua relação com os clientes através de uma comunicação direta e eficaz. O Meu Personal facilita o acompanhamento de progresso, a troca de mensagens e a criação de uma comunidade fitness coesa."
+  },
+  {
+    "id": 4,
+    "titulo": "Resultados Mensuráveis",
+    "descricao": "Otimize a análise de desempenho e resultados. Com recursos de rastreamento integrados, o Meu Personal fornece insights valiosos, permitindo avaliações precisas e ajustes estratégicos para alcançar os objetivos de treino."
+  }
+]
