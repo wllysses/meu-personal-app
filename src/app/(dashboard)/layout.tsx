@@ -13,7 +13,7 @@ import {
 import { nextAuthOption } from "@/lib/auth";
 import { cn } from "@/lib/utils";
 import { buttonVariants } from "@/components/ui/button";
-import { DropdownUser } from "@/components/dropdown-user";
+import { DropdownUser } from "@/components/ui/dropdown-user";
 
 export default async function PrivateDashboardLayout({
   children,

@@ -1,9 +1,9 @@
 import Image from "next/image";
-import { BarChart, KanbanSquare, SendIcon, UsersRound } from "lucide-react";
+import { KanbanSquare } from "lucide-react";
 import illustration from "../../public/undraw_Personal_trainer_re_cnua.png";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
-import { Header } from "@/components/header";
+import { Header } from "@/components/ui/header";
 import pontosPositivos from "@/mocks/pontos-positivos.json";
 import perguntasFrequentes from "@/mocks/perguntas-frequentes.json";
 
@@ -14,7 +14,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { Textarea } from "@/components/ui/textarea";
-import { Footer } from "@/components/footer";
+import { Footer } from "@/components/ui/footer";
 
 export default function Home() {
   return (

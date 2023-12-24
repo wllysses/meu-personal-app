@@ -12,7 +12,7 @@ import {
   UsersIcon,
 } from "lucide-react";
 
-import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
+import { Avatar, AvatarFallback, AvatarImage } from "./avatar";
 import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,

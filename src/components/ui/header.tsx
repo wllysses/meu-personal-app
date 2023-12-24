@@ -3,27 +3,25 @@
 import Link from "next/link";
 import { signIn, signOut, useSession } from "next-auth/react";
 import {
-  CalendarDaysIcon,
   DumbbellIcon,
   LayoutDashboard,
-  ListIcon,
   LogInIcon,
   LogOutIcon,
   MenuIcon,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { Button, buttonVariants } from "./ui/button";
-import { Card } from "./ui/card";
+import { Button, buttonVariants } from "./button";
+import { Card } from "./card";
 import {
   Sheet,
   SheetContent,
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-} from "./ui/sheet";
-import { ThemeToggle } from "./ui/theme-toggle";
-import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
-import { Separator } from "./ui/separator";
+} from "./sheet";
+import { ThemeToggle } from "./theme-toggle";
+import { Avatar, AvatarFallback, AvatarImage } from "./avatar";
+import { Separator } from "./separator";
 
 export function Header() {
   const { data: session, status } = useSession();

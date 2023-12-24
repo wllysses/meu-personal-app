@@ -1,12 +1,15 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Poppins } from "next/font/google";
 import { NextAuthProvider } from "@/providers/auth";
 import { ThemeProvider } from "@/providers/theme-provider";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["300", "400", "600", "700"],
+});
 
 export const metadata: Metadata = {
   title: "Meu Personal",
@@ -20,7 +23,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
-      <body className={inter.className}>
+      <body className={poppins.className}>
         <ToastContainer
           autoClose={1500}
           pauseOnFocusLoss={false}
